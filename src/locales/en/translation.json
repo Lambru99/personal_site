@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "title": "Ludovico<br />Latini",
+    "subtitle": "Cybersecurity Engineer, Penetration Tester, and Scripter"
+  },
+  "about": {
+    "title": "About me",
+    "background": {
+      "heading": "Background",
+      "text": "I hold a Bachelor's degree in Computer Science and a Master's in Cyber Security, with a lifelong passion for IT security, programming, and Linux systems. My master's education also provided in-depth knowledge of machine and deep learning, leading to various hands-on projects in these fields."
+    },
+    "skills": {
+      "heading": "Technical Skills",
+      "text": "I have advanced skills in managing operating systems like Linux (Debian, Arch, Fedora, since 2012), Windows, and macOS. I am a self-taught system administrator, specialized in managing centralized environments with Active Directory and virtualization systems like VCenter and Proxmox.",
+      "items": [
+        { "name": "WebAttack", "title": "Web Attack" },
+        { "name": "ReverseEngineering", "title": "Reverse Engineering" },
+        { "name": "Scripting", "title": "Scripting" },
+        { "name": "OSINT", "title": "OSINT" },
+        { "name": "SocialEngineering", "title": "Social Engineering" },
+        { "name": "Linux", "title": "Linux" },
+        { "name": "Windows", "title": "Windows" },
+        { "name": "MacOs", "title": "MacOs" }
+      ]
+    },
+    "tools": {
+      "heading": "Tools & Languages",
+      "text": "I'm an expert in professional cybersecurity tools such as Nmap, Wireshark, Burp Suite, and Metasploit, as well as cracking tools like John the Ripper and Hydra. I have experience with reverse engineering (JADX, IDA) and develop scripts with a strong preference for Python. I am also active on TryHackMe and HackTheBox."
+    }
+  },
+  "portfolio": {
+    "title": "My Work",
+    "button": "View Project",
+    "projects": [
+      { "title": "Tor-Ip-correlation", "description": "Simple server that is able to collect the IP of the user that are visiting the page. If the user visit the page with normal browser and Tor browser, the server provider is able to correlate the IPs.", "link": "https://github.com/Lambru99/Tor-Ip-correlation" },
+      { "title": "CPSProject", "description": "Anomaly Detection System", "link": "https://github.com/Lambru99/CPSProject2/blob/main/cyber.ipynb" },
+      { "title": "Fashion_MNIST_CNN", "description": "Fashion MNIST CNN", "link": "https://github.com/Lambru99/Fashion_MNIST_CNN/blob/main/Definitivo1.ipynb" },
+      { "title": "ReSuMo", "description": "A regression mutation testing tool for Solidity Smart Contracts", "link": "https://github.com/Lambru99/ReSuMo-Thesis/blob/main/Tesi.pdf" },
+      { "title": "Enhancing Tor Privacy", "description": "A Study on State-of-the-Art Session Correlation Methods and Possible Countermeasures", "link": "https://hdl.handle.net/20.500.12608/84775" },
+      { "title": "Are Flow Correlation Attacks Effective on Tor?", "description": "A Critical Evaluation of State-of-the-Art Proposals", "link": "https://cns2025.ieee-cns.org/" }
+    ]
+  },
+"testimonials": {
+    "title": "Testimonials",
+    "items": [
+          { "quote": "A mother's love.", "author": "Mom" },
+          { "quote": "A great mentor.", "author": "Bill Gates" },
+          { "quote": "A bombshell in its field", "author": "Al Qaida" }
+    ]
+},
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Here you can find my Curriculum Vitae and all my contacts.",
+    "email": "Email me",
+    "cv": "Download CV"
+  }
+}

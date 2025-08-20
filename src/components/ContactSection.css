@@ -1,0 +1,71 @@
+.contact-section {
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 4vw;
+  margin-bottom: 20px;
+}
+
+.contact-section p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin-bottom: 40px;
+  color: var(--color-text-dimmed);
+}
+
+.contact-buttons-container {
+    margin-bottom: 40px;
+}
+
+.contact-button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Aggiungi 'wrap' per un layout responsive su schermi piccoli */
+    align-items: center;
+}
+
+/* Sostituisci il vecchio blocco .contact-button */
+.contact-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: transparent; /* Pulsanti trasparenti */
+  color: var(--color-accent);
+  border: 1px solid var(--color-accent); /* Bordo netto */
+  border-radius: 0; /* Rimuovi la rotondità */
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: var(--color-accent);
+  color: var(--color-dark);
+  transform: translateY(-5px);
+}
+
+/* Sostituisci il vecchio blocco .download-button */
+.download-button {
+    background-color: var(--color-accent);
+    color: var(--color-dark);
+    text-shadow: none; /* Rimuovi l'ombra dal testo del bottone download */
+}
+
+.download-button:hover {
+    background-color: var(--color-text-dimmed);
+    color: var(--color-dark);
+}
+
+.social-links {
+  margin-top: 40px;
+}
+
+.social-links a {
+  margin: 0 15px;
+  color: var(--color-text-dimmed);
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: var(--color-light);
+}

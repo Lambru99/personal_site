@@ -1,0 +1,27 @@
+.about-section {
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 4vw;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    max-width: 800px;
+    margin: 0 auto 20px;
+    font-size: 1.2rem;
+    color: var(--color-text-dimmed);
+}
+.about-block {
+    max-width: 800px;
+    margin: 40px auto; /* Spazio tra i blocchi */
+    text-align: left; /* Allinea il testo a sinistra per una migliore leggibilità */
+}
+
+.about-block h3 {
+    text-transform: uppercase;
+    color: var(--color-accent);
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
