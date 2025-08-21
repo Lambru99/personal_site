@@ -36,7 +36,7 @@ const HeroSection = () => {
             <div className="hero-content">
                 <img 
                     ref={photoRef} 
-                    src="/images/profile.jpg" // Il percorso del file che hai salvato
+                    src="/images/profile.jpg"
                     alt="Foto Profilo Ludovico Latini" 
                     className="profile-photo"
                 />
