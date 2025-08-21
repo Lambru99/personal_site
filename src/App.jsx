@@ -18,7 +18,7 @@ function App() {
       <AboutSection />
       <SkillsSection />
       <PortfolioSection />
-      <TestimonialsSection />
+      {/*<TestimonialsSection />*/}
       <ContactSection />
     </>
   );

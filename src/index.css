@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
 :root {
   --color-dark: #0a0a0a;
   --color-light: #e0e0e0;
@@ -7,7 +8,6 @@
   --glow-shadow: 0 0 5px var(--color-accent), 0 0 10px var(--color-accent);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
 
 html {
   scroll-behavior: smooth;

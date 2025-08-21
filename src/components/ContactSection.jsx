@@ -20,8 +20,8 @@ const ContactSection = () => {
                 <div className="contact-button-group">
                     <a href="mailto:latiniludovico@gmail.com" className="contact-button">{t('contact.email')}</a>
                     <a 
-                        href="public/cv/Latini_Ludovico_CV.pdf"
-                        download="L_Latini_CV.pdf"
+                        href="/cv/Latini_Ludovico_CV.pdf"
+                        download="Ludovico_Latini_CV.pdf"
                         className="contact-button download-button"
                     >
                         {t('contact.cv')}
