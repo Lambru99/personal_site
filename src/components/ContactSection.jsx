@@ -34,6 +34,14 @@ const ContactSection = () => {
                 <a href="https://www.github.com/Lambru99">GitHub</a>
                 <a href="https://www.instagram.com/ludolambru/">Instagram</a>
             </div>
+            <div className="tryhackme-container">
+                <iframe 
+                    src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=538086"
+                    style={{ border: 'none' }}
+                    title="TryHackMe Badge"
+                    className="tryhackme-badge"
+                ></iframe>
+            </div>
         </section>
     );
 };

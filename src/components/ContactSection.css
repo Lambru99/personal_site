@@ -1,5 +1,6 @@
 .contact-section {
   text-align: center;
+  overflow-x: hidden;
 }
 
 .contact-section h2 {
@@ -68,4 +69,20 @@
 
 .social-links a:hover {
   color: var(--color-light);
+}
+
+.tryhackme-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.tryhackme-badge {
+  width: 329px;
+  height: 200px;
+}
+
+.tryhackme-badge iframe {
+  width: 100%;
+  height: 100%;
 }
