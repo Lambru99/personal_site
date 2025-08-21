@@ -49,9 +49,11 @@
     ]
 },
   "contact": {
-    "title": "Contact",
+    "title": "Contact Me",
     "subtitle": "Here you can find my Curriculum Vitae and all my contacts. Ps. If you find the flag, let me know ;)",
-    "email": "Email me",
-    "cv": "Download CV"
-  }
+    "flag_placeholder": "4 characters{58 characters}",
+    "send_flag": "Send Flag",
+    "email": "Send me an email",
+    "cv": "Download my CV"
+}
 }

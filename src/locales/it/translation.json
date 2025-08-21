@@ -49,9 +49,11 @@
     ]
 },
   "contact": {
-    "title": "Contatti",
+    "title": "Contattami",
     "subtitle": "Qui puoi trovare il mio Curriculum Vitae e tutti i miei contatti. Ps. Se trovi la flag fammi sapere ;)",
+    "flag_placeholder": "4 caratteri{58 caratteri}",
+    "send_flag": "Invia Flag",
     "email": "Scrivimi una mail",
-    "cv": "Scarica il CV"
-  }
+    "cv": "Scarica il mio CV"
+}
 }

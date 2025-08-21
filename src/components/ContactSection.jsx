@@ -1,4 +1,4 @@
-import React, { useRef, useLayoutEffect } from 'react';
+import React, { useState } from 'react';
 import { useInView } from 'react-intersection-observer';
 import { useTranslation } from 'react-i18next';
 import './ContactSection.css';
@@ -9,6 +9,19 @@ const ContactSection = () => {
         triggerOnce: true,
         threshold: 0.3,
     });
+    
+    const [flagText, setFlagText] = useState('');
+
+    const handleFormSubmit = (event) => {
+        event.preventDefault();
+
+        const emailSubject = 'FLAG - ludovicolatini.it';
+        const emailBody = flagText;
+        
+        const mailtoUrl = `mailto:latiniludovico@gmail.com?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
+        
+        window.location.href = mailtoUrl;
+    };
 
     return (
         <section ref={ref} className={`contact-section ${inView ? 'is-visible' : 'fade-in'}`}>
@@ -16,6 +29,21 @@ const ContactSection = () => {
             <p>
                 {t('contact.subtitle')}
             </p>
+
+            {/* Form per la flag */}
+            <form onSubmit={handleFormSubmit} className="flag-form">
+                <input
+                    type="text"
+                    value={flagText}
+                    onChange={(e) => setFlagText(e.target.value)}
+                    placeholder={t('contact.flag_placeholder')}
+                    required
+                />
+                <button type="submit">
+                    {t('contact.send_flag')}
+                </button>
+            </form>
+
             <div className="contact-buttons-container">
                 <div className="contact-button-group">
                     <a href="mailto:latiniludovico@gmail.com" className="contact-button">{t('contact.email')}</a>
